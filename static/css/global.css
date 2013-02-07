@@ -2,6 +2,17 @@ body {
    background-color: #AFCED3;
    font-family: "Oblik-Bold",Arial,sans-serif;
 }
+h1,h2,h3,h4,h5,h6{
+	color: #3F4142;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+a {
+    text-decoration: none;
+}
+
 #wrapper #main-header h1 a{
    background: url("../img/logoPT.png") no-repeat scroll left top transparent;
     display: block;
@@ -57,4 +68,30 @@ body {
    src:url("../fonts/Oblik-Bold/Oblik_Bold.eot?") format("eot"),url("../fonts/Oblik-Bold/Oblik_Bold.woff") format("woff"),url("../fonts/Oblik-Bold/Oblik_Bold.ttf") format("truetype"),url("../fonts/Oblik-Bold/Oblik_Bold.svg#Oblik-Bold") format("svg");
    font-weight:normal;
    font-style:normal;
+}
+    
+.button{
+    border-radius: 10px;
+    border-color: #FFFFFF;
+    border-style:solid;
+    border-width:3px;
+    padding: 5% 10%;
+}
+
+.button-green{
+    color: #FFFFFF;
+    background-image: linear-gradient(bottom, rgb(5,168,65) 47%, rgb(125,176,37) 74%, rgb(34,179,63) 87%);
+    background-image: -o-linear-gradient(bottom, rgb(5,168,65) 47%, rgb(125,176,37) 74%, rgb(34,179,63) 87%);
+    background-image: -moz-linear-gradient(bottom, rgb(5,168,65) 47%, rgb(125,176,37) 74%, rgb(34,179,63) 87%);
+    background-image: -webkit-linear-gradient(bottom, rgb(5,168,65) 47%, rgb(125,176,37) 74%, rgb(34,179,63) 87%);
+    background-image: -ms-linear-gradient(bottom, rgb(5,168,65) 47%, rgb(125,176,37) 74%, rgb(34,179,63) 87%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.47, rgb(5,168,65)),
+        color-stop(0.74, rgb(125,176,37)),
+        color-stop(0.87, rgb(34,179,63))
+    );
 }

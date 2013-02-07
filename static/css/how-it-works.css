@@ -1,0 +1,47 @@
+#hiw-info header h1{
+	font-family: 'Oblik-Bold',​Arial,​sans-serif;
+	font-size: 42px;
+	font-weight: normal;
+}
+
+#hiw-content{
+	border: 1% solid #FFFFFF;
+	background-color: #D7E9EB;
+	padding: 1%;
+	margin-bottom: 8%;
+}
+#hiw-content section{
+	padding: 2%;
+}
+#hiw-content ul{
+	text-align: center;
+	padding-left: 0;
+	margin-left: 0;
+    margin-top: 0;
+    background: #D1E7E4;
+}
+#hiw-content ul li div:last-child{
+	background: rgb(255,255,255);
+	height: 39px
+}
+#hiw-content ul li div:last-child a{
+	top: 50%;
+	vertical-align: middle;
+}
+#hiw-content ul li .hiw-step-about{
+	font-size: 24px;
+	height: 56px;
+	margin-bottom: 2%;
+}
+#hiw-content ul li h2{
+	font-weight: normal;
+}
+#hiw-content section .omega{
+	margin-left: 1%;
+    margin-top: 2%;
+}
+
+
+#hiw-step-specs article{
+	margin-bottom: 45px;
+}
