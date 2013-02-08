@@ -14,7 +14,7 @@ a {
 }
 
 #wrapper #main-header h1 a{
-   background: url("../img/logoPT.png") no-repeat scroll left top transparent;
+   background: url("../img/logoPT.png") no-repeat;
     display: block;
     height: 0;
     width: 321px;
@@ -26,22 +26,42 @@ a {
     background-color: #FFFFFF;
     clear: both;
     display: block;
-    height: 2.5em;
+    height: 3em;
     width: 100%;
     color: #313737;
-    font-family: "Oblik-Bold",Arial,sans-serif;
-    font-size: 20px;
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
     margin: 0;
+    padding: 0;
+    
+}
+#main-header #main-nav ul li{
+    border-right: 1px solid #989692;
+    padding-right:5px;
+    margin-right:1em;
+    margin-left:2em;
+    font-size:20px;
+    height:2em;
 }
 #main-header #main-nav ul li a:visited{
     color: #313737;
 }
 #main-header #main-nav ul li a{
+	color: #313737;
     text-decoration: none;
+    text-align:;
+    display:block;
 }
 #main-header #main-nav ul li a:hover {
     text-decoration: underline;
 }
+#main-header #main-nav #social-networks{
+    display:block;
+}
+
 #postscript {
     background-color: #FFFFFF;
     clear: both;
@@ -54,14 +74,22 @@ a {
     width: 100%;
 }
 #wrapper #main-header .get-going{
-    background-color: black;
+    background: url("../img/top_navigation.png") no-repeat;
     text-decoration: none;
+    text-align:right;
+    padding-top:0.7%;
+    padding-right:0.4%;
     color: white;
     height: 32px;
     width: 119px;
-    position: relative;
+    position: inherit;
     float:left;
     right: -57.6%;
+    top:10%;
+    font-size: 16px;
+}
+#wrapper #main-header .get-going a{
+    color:white;
 }
 @font-face {
    font-family:"Oblik-Bold";
