@@ -1,0 +1,76 @@
+@import "variables.less";
+
+#hiw-info header h1{
+	font-size: @h1-font-size;
+	font-weight: normal;
+}
+#hiw-content{
+	border: 1% solid #FFFFFF;
+	background-color: #D7E9EB;
+	padding: 1%;
+	margin-bottom: 8%;
+	section{
+		padding-left: 1%;
+		p{
+			font-size: 15px;
+		}
+		.omega{
+			margin-left: 1%;
+		    margin-top: 3%;
+		}
+		div{
+			strong{
+				font-size: 86px;
+			}
+			p{
+				font-size: 31px;
+				font-weight: normal;
+			}
+		}
+	}
+	ul{
+		text-align: center;
+		padding-left: 0;
+		margin-left: 3%;
+	    margin-top: 0;
+	    background: #D1E7E4;
+	    width: 94%;
+	    li {
+	    	&:not(.omega){
+	    		border-right: 1px solid #666666;
+	    	}
+	    	margin: 0;
+	    	.omega{
+	    		border-right: none;
+	    	}
+	    	div{
+		    	&:last-child{
+					background: #FFFFFF;
+					height: 39px;
+					a{
+						padding-top: 8%;
+						vertical-align: middle;
+					}
+				}
+			}
+			.hiw-step-about{
+				font-size: 24px;
+				height: 56px;
+				margin-bottom: 2%;
+				color: @grey-color;
+			}
+			h2{
+				font-weight: normal;
+			}
+		}
+	}
+}
+
+#hiw-step-specs article{
+	margin-bottom: 45px;
+	div h1{
+		font-size: @h1-font-size;
+		font-weight: lighter;
+		margin: 0;
+	}
+}

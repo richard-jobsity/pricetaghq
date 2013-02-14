@@ -1,0 +1,78 @@
+#pricing-info {
+  margin-bottom: 5%;
+}
+#pricing-info header h1 {
+  font-size: 42px;
+  font-weight: normal;
+}
+#pricing-info section article {
+  background: url("../img/pricing-short-background.png");
+  margin: 0 1% 0 0;
+  border: 1px solid #FFFFFF;
+  max-height: 26em;
+}
+#pricing-info section article header {
+  padding: 5%;
+}
+#pricing-info section article header h1 {
+  color: #006599;
+  margin: 0;
+  font-size: 40px;
+}
+#pricing-info section article header p {
+  font-weight: lighter;
+}
+#pricing-info section article .no-quotes {
+  height: 5em;
+  margin: -3% 0 0;
+  padding-left: 24%;
+}
+#pricing-info section article .no-quotes strong {
+  font-size: 63px;
+}
+#pricing-info section article .unltd-quotes {
+  height: 4.32em;
+  padding-left: 4%;
+  text-align: center;
+  margin: 7% 0 0;
+}
+#pricing-info section article .unltd-quotes strong {
+  font-size: 28px;
+}
+#pricing-info section article .unltd-quotes p {
+  margin: 0;
+  font-size: 20px;
+}
+#pricing-info section article div {
+  height: 9em;
+}
+#pricing-info section article div p {
+  text-align: center;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+#pricing-info section article p {
+  text-align: center;
+}
+#pricing-features header {
+  background-color: #FFFFFF;
+}
+#pricing-features header h2 {
+  margin: 0;
+  padding: 3%;
+}
+#pricing-features ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+#pricing-features ul li {
+  padding: 2%;
+}
+#pricing-features ul li:nth-child(odd) {
+  background-color: #DFEBED;
+}
+#pricing-features ul li:nth-child(even) {
+  background-color: #FFFFFF;
+}
+
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
