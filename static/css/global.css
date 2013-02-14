@@ -12,7 +12,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 a {
     text-decoration: none;
 }
-
+#wrapper #main-header h1{
+	margin-bottom: 3.7em;
+	width: 322px;
+}
 #wrapper #main-header h1 a{
    background: url("../img/logoPT.png") no-repeat;
     display: block;
@@ -22,7 +25,46 @@ a {
     overflow:hidden;
     float:left;
 }
-#main-header #main-nav ul{
+#wrapper #main-header .get-going{
+    background: url("../img/top_navigation.png") no-repeat;
+    text-decoration: none;
+    text-align:right;
+    padding-top:0.7%;
+    padding-right:0.4%;
+    color: white;
+    height: 32px;
+    width: 119px;
+    float:right;
+    top:10px;
+    font-size: 16px;
+    margin-top: -8em;
+}
+#wrapper #main-header .get-going a{
+    color:white;
+}
+#wrapper #main-menu{
+    width: 100%;
+    background-color: #FFFFFF;
+    clear: both;
+    display: block;
+    height: 3em;
+    color: #313737;
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+}   
+#main-menu #main-nav{
+    float:left;
+}
+#main-menu #main-nav ul{
+    list-style-type: none;
+}
+/*
+#main-menu #main-nav ul{
     background-color: #FFFFFF;
     clear: both;
     display: block;
@@ -36,30 +78,46 @@ a {
     font-weight: inherit;
     margin: 0;
     padding: 0;
-    
-}
-#main-header #main-nav ul li{
+    float:left;
+}*/
+#main-menu #main-nav ul li{
+	float:left;
     border-right: 1px solid #989692;
     padding-right:5px;
     margin-right:1em;
     margin-left:2em;
     font-size:20px;
     height:2em;
+    margin-top: -0.5em;
 }
-#main-header #main-nav ul li a:visited{
+#main-menu #main-nav ul li a:visited{
     color: #313737;
 }
-#main-header #main-nav ul li a{
+#main-menu #main-nav ul li a{
 	color: #313737;
     text-decoration: none;
-    text-align:;
+    text-align:center;
     display:block;
+    margin-left: -2em;
+    margin-top: 0.4em;
 }
-#main-header #main-nav ul li a:hover {
+#main-menu #main-nav ul li a:hover {
     text-decoration: underline;
 }
-#main-header #main-nav #social-networks{
-    display:block;
+#main-menu #main-nav .menu_1{
+    margin-left: 0em;
+}
+#main-menu #main-nav .menu_5{
+    border-right: 0 none;
+}
+#main-menu #social-networks{
+    overflow:hidden;
+}
+#main-menu #social-networks iframe{
+    float:right;
+    border:none; 
+    width:8em; 
+    height:2em;
 }
 
 #postscript {
@@ -69,27 +127,36 @@ a {
     height: 3em;
     width: 100%;
 }
-#footer {
-    background-color: #262626;
-    width: 100%;
-}
-#wrapper #main-header .get-going{
-    background: url("../img/top_navigation.png") no-repeat;
-    text-decoration: none;
-    text-align:right;
-    padding-top:0.7%;
-    padding-right:0.4%;
-    color: white;
-    height: 32px;
-    width: 119px;
-    position: inherit;
-    float:left;
-    right: -57.6%;
-    top:10%;
+#footer h2{
+    border-right: 1px solid #999999;
+    color: #AFCDD2;
+    float: left;
     font-size: 16px;
+    height: 45px;
+    margin: 0 35px 0 0;
+    padding: 16px 26px 0 0;
+    text-shadow: none;
+    vertical-align: middle;
 }
-#wrapper #main-header .get-going a{
+#footer {
+    background: url("../img/footer_background.png") repeat-x;
+    background-color:#414142;
+    height: 100%;
+    padding: 30px 0;
+    width: 100%;
     color:white;
+}
+#footer h1{
+    color: #B3AD9E;
+    font-size: 16px;
+    line-height: 17px;
+    margin-bottom: 7px;
+    margin-top: 0;
+    text-shadow: none;
+}
+#footer .footer-nav a{
+    color: #FAFDFD;
+    text-shadow: none;
 }
 @font-face {
    font-family:"Oblik-Bold";
