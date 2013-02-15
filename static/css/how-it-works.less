@@ -9,22 +9,31 @@
 	background-color: #D7E9EB;
 	padding: 1%;
 	margin-bottom: 8%;
+	border: 0.1em solid #FFFFFF;
 	section{
 		padding-left: 1%;
 		p{
-			font-size: 15px;
+			font-size: 1.2em;
+			margin-right: 3%;
 		}
 		.omega{
 			margin-left: 1%;
 		    margin-top: 3%;
 		}
 		div{
+			font-family: @header-font,Arial,sans-serif;
 			strong{
-				font-size: 86px;
+				font-size: 6em;
+				margin: 0;
 			}
 			p{
-				font-size: 31px;
+				font-size: 3em;
 				font-weight: normal;
+			}
+			a{
+				font-size: 1.8em;
+			    font-weight: bold;
+			    padding: 8% 17%;
 			}
 		}
 	}
@@ -37,7 +46,7 @@
 	    width: 94%;
 	    li {
 	    	&:not(.omega){
-	    		border-right: 1px solid #666666;
+	    		border-right: 0.1em solid #666666;
 	    	}
 	    	margin: 0;
 	    	.omega{
@@ -46,16 +55,17 @@
 	    	div{
 		    	&:last-child{
 					background: #FFFFFF;
-					height: 39px;
+					height: 3em;
 					a{
 						padding-top: 8%;
 						vertical-align: middle;
+						font-size: 1.2em;
 					}
 				}
 			}
 			.hiw-step-about{
-				font-size: 24px;
-				height: 56px;
+				font-size: 2em;
+				height: 3em;
 				margin-bottom: 2%;
 				color: @grey-color;
 			}
@@ -67,10 +77,19 @@
 }
 
 #hiw-step-specs article{
-	margin-bottom: 45px;
-	div h1{
-		font-size: @h1-font-size;
-		font-weight: lighter;
-		margin: 0;
+	margin-bottom: 4em;
+	div{
+		h2{
+			float: left;
+    		margin-right: 2%;
+		}
+		h1{
+			font-size: @h1-font-size;
+			font-weight: lighter;
+			margin: 0;
+		}
+		p{
+			font-size: 1.15em;
+		}
 	}
 }

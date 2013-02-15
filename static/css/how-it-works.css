@@ -7,23 +7,34 @@
   background-color: #D7E9EB;
   padding: 1%;
   margin-bottom: 8%;
+  border: 0.1em solid #FFFFFF;
 }
 #hiw-content section {
   padding-left: 1%;
 }
 #hiw-content section p {
-  font-size: 15px;
+  font-size: 1.2em;
+  margin-right: 3%;
 }
 #hiw-content section .omega {
   margin-left: 1%;
   margin-top: 3%;
 }
+#hiw-content section div {
+  font-family: "Oblik-Bold", Arial, sans-serif;
+}
 #hiw-content section div strong {
-  font-size: 86px;
+  font-size: 6em;
+  margin: 0;
 }
 #hiw-content section div p {
-  font-size: 31px;
+  font-size: 3em;
   font-weight: normal;
+}
+#hiw-content section div a {
+  font-size: 1.8em;
+  font-weight: bold;
+  padding: 8% 17%;
 }
 #hiw-content ul {
   text-align: center;
@@ -37,22 +48,23 @@
   margin: 0;
 }
 #hiw-content ul li:not(.omega) {
-  border-right: 1px solid #666666;
+  border-right: 0.1em solid #666666;
 }
 #hiw-content ul li .omega {
   border-right: none;
 }
 #hiw-content ul li div:last-child {
   background: #FFFFFF;
-  height: 39px;
+  height: 3em;
 }
 #hiw-content ul li div:last-child a {
   padding-top: 8%;
   vertical-align: middle;
+  font-size: 1.2em;
 }
 #hiw-content ul li .hiw-step-about {
-  font-size: 24px;
-  height: 56px;
+  font-size: 2em;
+  height: 3em;
   margin-bottom: 2%;
   color: #3f4142;
 }
@@ -60,12 +72,17 @@
   font-weight: normal;
 }
 #hiw-step-specs article {
-  margin-bottom: 45px;
+  margin-bottom: 4em;
+}
+#hiw-step-specs article div h2 {
+  float: left;
+  margin-right: 2%;
 }
 #hiw-step-specs article div h1 {
   font-size: 42px;
   font-weight: lighter;
   margin: 0;
 }
-
-/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
+#hiw-step-specs article div p {
+  font-size: 1.15em;
+}

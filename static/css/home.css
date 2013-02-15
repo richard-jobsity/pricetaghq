@@ -1,0 +1,66 @@
+#highlighted {
+  margin-bottom: 4%;
+  margin-top: 3%;
+}
+#highlighted article h2,
+#highlighted article h1 {
+  text-align: center;
+  margin: 0;
+  text-shadow: 0 0.03em 0.04em #D7E7E9;
+}
+#highlighted article h2 {
+  border-top: 0.05em solid #FFFFFF;
+  font-size: 3.5em;
+}
+#highlighted article h1 {
+  border-bottom: 0.02em solid #FFFFFF;
+  font-size: 9em;
+}
+#highlighted article p {
+  font-size: 1.2em;
+  padding: 0 2%;
+  margin-bottom: 10%;
+}
+#highlighted article p:last-of-type {
+  text-align: center;
+}
+#highlighted article a {
+  font-size: 2em;
+  padding: 2% 4%;
+  font-weight: bold;
+}
+#body article {
+  margin-bottom: 5%;
+}
+#body article h1,
+#body article h3 {
+  font-weight: normal;
+  margin: 0;
+}
+#body article h1 {
+  font-size: 3em;
+}
+#body article img {
+  float: left;
+  display: inline;
+}
+#body article p,
+#body article ul {
+  font-size: 1.2em;
+}
+#body article p strong {
+  display: block;
+}
+#body article ul {
+  margin-left: 2%;
+  padding-left: 0;
+}
+#body article.row1 img {
+  padding: 3%;
+}
+#body article.alpha {
+  border-right: 0.2em solid #81A5B0;
+  margin-right: 0.5em;
+}
+
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
