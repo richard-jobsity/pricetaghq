@@ -1,47 +1,71 @@
-#hiw-info header h1{
-	font-family: 'Oblik-Bold',​Arial,​sans-serif;
-	font-size: 42px;
-	font-weight: normal;
+#hiw-info header h1 {
+  font-size: 42px;
+  font-weight: normal;
+}
+#hiw-content {
+  border: 1% solid #FFFFFF;
+  background-color: #D7E9EB;
+  padding: 1%;
+  margin-bottom: 8%;
+}
+#hiw-content section {
+  padding-left: 1%;
+}
+#hiw-content section p {
+  font-size: 15px;
+}
+#hiw-content section .omega {
+  margin-left: 1%;
+  margin-top: 3%;
+}
+#hiw-content section div strong {
+  font-size: 86px;
+}
+#hiw-content section div p {
+  font-size: 31px;
+  font-weight: normal;
+}
+#hiw-content ul {
+  text-align: center;
+  padding-left: 0;
+  margin-left: 3%;
+  margin-top: 0;
+  background: #D1E7E4;
+  width: 94%;
+}
+#hiw-content ul li {
+  margin: 0;
+}
+#hiw-content ul li:not(.omega) {
+  border-right: 1px solid #666666;
+}
+#hiw-content ul li .omega {
+  border-right: none;
+}
+#hiw-content ul li div:last-child {
+  background: #FFFFFF;
+  height: 39px;
+}
+#hiw-content ul li div:last-child a {
+  padding-top: 8%;
+  vertical-align: middle;
+}
+#hiw-content ul li .hiw-step-about {
+  font-size: 24px;
+  height: 56px;
+  margin-bottom: 2%;
+  color: #3f4142;
+}
+#hiw-content ul li h2 {
+  font-weight: normal;
+}
+#hiw-step-specs article {
+  margin-bottom: 45px;
+}
+#hiw-step-specs article div h1 {
+  font-size: 42px;
+  font-weight: lighter;
+  margin: 0;
 }
 
-#hiw-content{
-	border: 1% solid #FFFFFF;
-	background-color: #D7E9EB;
-	padding: 1%;
-	margin-bottom: 8%;
-}
-#hiw-content section{
-	padding: 2%;
-}
-#hiw-content ul{
-	text-align: center;
-	padding-left: 0;
-	margin-left: 0;
-    margin-top: 0;
-    background: #D1E7E4;
-}
-#hiw-content ul li div:last-child{
-	background: rgb(255,255,255);
-	height: 39px
-}
-#hiw-content ul li div:last-child a{
-	top: 50%;
-	vertical-align: middle;
-}
-#hiw-content ul li .hiw-step-about{
-	font-size: 24px;
-	height: 56px;
-	margin-bottom: 2%;
-}
-#hiw-content ul li h2{
-	font-weight: normal;
-}
-#hiw-content section .omega{
-	margin-left: 1%;
-    margin-top: 2%;
-}
-
-
-#hiw-step-specs article{
-	margin-bottom: 45px;
-}
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
