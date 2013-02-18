@@ -1,5 +1,5 @@
 #pricing-info {
-  margin-bottom: 9%;
+  margin-bottom: 10%;
 }
 #pricing-info header h1 {
   font-size: 42px;
@@ -11,21 +11,39 @@
   border: 1px solid #FFFFFF;
 }
 #pricing-info section article header {
-  padding: 6%;
+  padding: 4% 4% 4% 10%;
 }
 #pricing-info section article header h1 {
   color: #006599;
   margin: 0;
   font-size: 40px;
 }
+#pricing-info section article header p {
+  font-size: 1.5em;
+  text-align: left;
+}
+#pricing-info section article .no-quotes,
+#pricing-info section article .unltd-quotes {
+  color: #3F4142;
+  font-family: "OblikBold";
+  font-weight: normal;
+}
 #pricing-info section article .no-quotes {
   text-align: center;
+  margin-top: 0;
+  padding-left: 23%;
 }
 #pricing-info section article .no-quotes strong {
-  font-size: 63px;
+  font-size: 6em;
+  margin-right: 0;
+}
+#pricing-info section article .no-quotes p {
+  font-size: 2em;
+  margin-left: 0;
+  padding-top: 3%;
 }
 #pricing-info section article .unltd-quotes {
-  margin-bottom: -4%;
+  margin-bottom: -2%;
   margin-top: 9%;
   text-align: center;
 }
@@ -63,7 +81,7 @@
   margin-left: 2%;
   position: absolute;
   width: 96%;
-  box-shadow: 0 0.1em 0.07em #888888;
+  box-shadow: 0 0.2em 0.08em #888888;
 }
 #pricing-info section article p.select-plan a {
   font-size: 1.8em;

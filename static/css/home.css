@@ -9,11 +9,11 @@
   text-shadow: 0 0.03em 0.04em #D7E7E9;
 }
 #highlighted article h2 {
-  border-top: 0.05em solid #FFFFFF;
+  border-top: 0.04em solid #FFFFFF;
   font-size: 3.5em;
 }
 #highlighted article h1 {
-  border-bottom: 0.02em solid #FFFFFF;
+  border-bottom: 0.01em solid #FFFFFF;
   font-size: 9em;
 }
 #highlighted article p {
@@ -62,5 +62,3 @@
   border-right: 0.2em solid #81A5B0;
   margin-right: 0.5em;
 }
-
-/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */

@@ -1,11 +1,11 @@
 #hiw-info header h1 {
-  font-size: 42px;
   font-weight: normal;
 }
 #hiw-content {
+  color: #3F4142;
   border: 1% solid #FFFFFF;
   background-color: #D7E9EB;
-  padding: 1%;
+  padding-top: 1%;
   margin-bottom: 8%;
   border: 0.1em solid #FFFFFF;
 }
@@ -21,7 +21,7 @@
   margin-top: 3%;
 }
 #hiw-content section div {
-  font-family: "Oblik-Bold", Arial, sans-serif;
+  font-family: "OblikBold", Arial, sans-serif;
 }
 #hiw-content section div strong {
   font-size: 6em;
@@ -37,18 +37,20 @@
   padding: 8% 17%;
 }
 #hiw-content ul {
-  text-align: center;
-  padding-left: 0;
-  margin-left: 3%;
-  margin-top: 0;
   background: #D1E7E4;
-  width: 94%;
+  margin: 0;
+  padding-left: 0;
+  text-align: center;
+  width: 100%;
 }
 #hiw-content ul li {
   margin: 0;
+  width: 25%;
 }
 #hiw-content ul li:not(.omega) {
-  border-right: 0.1em solid #666666;
+  background-image: url('../img/hiw-arrow.png');
+  background-repeat: repeat-y;
+  background-position: right;
 }
 #hiw-content ul li .omega {
   border-right: none;
@@ -69,9 +71,10 @@
   color: #3f4142;
 }
 #hiw-content ul li h2 {
+  font-size: 2em;
   font-weight: normal;
 }
-#hiw-step-specs article {
+#hiw-step-specs article:not(:last-of-type) {
   margin-bottom: 4em;
 }
 #hiw-step-specs article div h2 {

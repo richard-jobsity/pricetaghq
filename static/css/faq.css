@@ -1,0 +1,42 @@
+#faq-categories header {
+  background-color: #FFFFFF;
+}
+#faq-categories header h2 {
+  margin: 0;
+  padding: 3%;
+}
+#faq-categories ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+#faq-categories ul li {
+  padding: 2%;
+}
+#faq-categories ul li:nth-child(odd) {
+  background-color: #DFEBED;
+}
+#faq-categories ul li:nth-child(even) {
+  background-color: #FFFFFF;
+}
+#qa {
+  margin-top: -2%;
+}
+aside header h2,
+section header h2 {
+  color: #252525;
+  font-weight: normal;
+  font-size: 2.5em;
+  margin-top: 0;
+}
+aside h3,
+section h3 {
+  margin-bottom: 0;
+  font-weight: normal;
+}
+aside p,
+section p {
+  margin-top: 0;
+}
+
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */

@@ -1,21 +1,39 @@
 @import "variables.less";
 
 @font-face {
-   font-family:@header-font;
-   src:url("../fonts/Oblik-Bold/Oblik_Bold.eot?") format("eot"),url("../fonts/Oblik-Bold/Oblik_Bold.woff") format("woff"),url("../fonts/Oblik-Bold/Oblik_Bold.ttf") format("truetype"),url("../fonts/Oblik-Bold/Oblik_Bold.svg#Oblik-Bold") format("svg");
-   font-weight:normal;
-   font-style:normal;
+    font-family: @header-font;
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/oblik_bold/Oblik_Bold-webfont.eot?iefix") format("eot"), url("../fonts/oblik_bold/Oblik_Bold-webfont.woff") format("woff"), url("../fonts/oblik_bold/Oblik_Bold-webfont.ttf") format("truetype"), url("../fonts/oblik_bold/Oblik_Bold-webfont.svg#webfontJQTyrIYD") format("svg");
 }
 
+
+html, body{
+    height: 100%;
+    padding: 0
+    margin: 0;
+}
 body {
    background-color: #AFCED3;
    color: #222222;
    font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
    font-size: 75%;
+   position: relative;
+   margin-right: 0;
+   margin-left: 0;
+   letter-spacing: -0.1px;
 }
 h1,h2,h3,h4,h5,h6{
+    color: #3F4142;
     font-family: @header-font,Arial,sans-serif;
-	color: #3F4142;
+    text-shadow: 0 1px 1px #FFFFFF;
+}
+h1{
+    font-size: @h1-font-size;
+    letter-spacing: -0.4px;
+}
+p {
+    font-family: Arial,Helvetica,sans-serif;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
@@ -35,8 +53,12 @@ a {
         text-decoration: none;
     }
 }
+
+#wrapper{
+    margin-top: 0.5%;
+}
 #main-header{
-    margin-bottom: 1em;
+    margin-bottom: 4%;
     h1{
         a{
             background: url("../img/logoPT.png") no-repeat;
@@ -68,12 +90,14 @@ a {
 }
 
 #main-menu{
-    width: 131.9%;
+    width: 100%;
     background-color: #FFFFFF;
     color: #313737;
     border: 0 none;
-    margin: 0;
-    left: -16%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    margin: 11em 0 0;
 }   
 #main-nav{
     margin-left: 15%;
@@ -114,31 +138,44 @@ a {
 
 #social-networks{
     overflow:hidden;
+    margin-left: -8%;
+    margin-top: 1%;
+    *{
+        float: right;
+        margin-right: 1%;
+    }
     iframe{
-        float:right;
         border:none; 
         width:9em; 
         height:2em;
-        padding: 3% 31%;
     }
 }
 
 #postscript {
-    margin-top: 3%;
     background-color: #FFFFFF;
-    width: 131.9%;
-    left: -17%;
+    bottom: 0;
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    margin-top: 4%;
+    p{
+        font-family: @header-font,Arial,sans-serif;
+        font-size: 2em;
+        margin: 0;
+        color: #3F4142;
+        margin: 1% 0 0 1%;
+    }
     img{
         float: left;
     }
 }
 #footer {
-    background: url("../img/footer_background.png") repeat-x;
-    background-color:#414142;
-    height: 100%;
-    width: 132.9%;
-    color:white;
-    left: -18%;
+    background: url("../img/footer_background.png") repeat-x scroll 0 0 #414142;
+    bottom: 0;
+    color: white;
+    left: 0;
+    margin-left: 0;
+    width: 100%;
     section{
         h3{
             border-right: 1px solid #999999;
@@ -169,6 +206,23 @@ a {
         color: #FAFDFD;
         text-shadow: none;
     }
+    aside{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        p{
+            text-align: right;
+            margin: 0;
+            width: 77%;
+        }
+        div{
+            background: url("../img/footer_logo.png") no-repeat scroll right top transparent;
+            float: right;
+            height: 4em;
+            margin: 0;
+            width: 4em;
+        }
+    }
     
 }
 #as-seen-in{
@@ -177,17 +231,14 @@ a {
 }
 
 #footer-info{
+    position: relative;
     ul{
         li.menu{
             border-right: 0.1em solid #999999;
-            height: 8em;
+            height: 11em;
         }
     }
-    aside{
-        h6{
 
-        }
-    }
 }
 
     
