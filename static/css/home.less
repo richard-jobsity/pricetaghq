@@ -53,20 +53,38 @@
 }
 #body{
 	article{
+		line-height: 21px;
 		margin-bottom: 5%;
 		h1,h3{
 			font-weight: normal;
 			margin: 0;
 		}
 		h1{
-			font-size: 3em;
+			font-size: 3.1em;
 		}
 		img{
 			float: left;
 			display: inline;
 		}
 		p, ul{
-			font-size: 1.2em;
+			&:not(.quotes):not(.credit-quotes){
+				font-size: 1.2em;
+			}
+		}
+		.quotes{
+		    color: #FFFFFF;
+		    font-size: 18px;
+		    font-style: italic;
+		    letter-spacing: 0;
+		    line-height: 24px;
+		    margin-bottom: 8px;
+		}
+		.credit-quotes{
+			font-size: 1em;
+    		font-weight: bold;
+		}
+		.testimonial-link{
+			font-style: italic;
 		}
 		p strong{
 			display: block;

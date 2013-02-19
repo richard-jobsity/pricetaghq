@@ -49,6 +49,7 @@
   padding: 4% 6%;
 }
 #body article {
+  line-height: 21px;
   margin-bottom: 5%;
 }
 #body article h1,
@@ -57,15 +58,30 @@
   margin: 0;
 }
 #body article h1 {
-  font-size: 3em;
+  font-size: 3.1em;
 }
 #body article img {
   float: left;
   display: inline;
 }
-#body article p,
-#body article ul {
+#body article p:not(.quotes):not(.credit-quotes),
+#body article ul:not(.quotes):not(.credit-quotes) {
   font-size: 1.2em;
+}
+#body article .quotes {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: italic;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+#body article .credit-quotes {
+  font-size: 1em;
+  font-weight: bold;
+}
+#body article .testimonial-link {
+  font-style: italic;
 }
 #body article p strong {
   display: block;

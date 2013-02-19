@@ -8,7 +8,7 @@
 #pricing-info section article {
   background: url("../img/pricing-short-background.png");
   margin: 0 1% 0 0;
-  border: 1px solid #FFFFFF;
+  border: 0.1em solid #FFFFFF;
 }
 #pricing-info section article header {
   padding: 7% 5% 3% 8%;
@@ -16,7 +16,8 @@
 #pricing-info section article header h1 {
   color: #006599;
   margin: 0;
-  font-size: 40px;
+  font-size: 3.3em;
+  white-space: nowrap;
 }
 #pricing-info section article header p {
   font-size: 1.5em;
