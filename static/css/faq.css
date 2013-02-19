@@ -22,6 +22,12 @@
 #qa {
   margin-top: -2%;
 }
+#qa article {
+  line-height: 1.8em;
+}
+#qa article h3 {
+  text-shadow: none;
+}
 aside header h2,
 section header h2 {
   color: #252525;
@@ -38,5 +44,3 @@ aside p,
 section p {
   margin-top: 0;
 }
-
-/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */

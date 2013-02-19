@@ -10,13 +10,32 @@
 }
 #highlighted article h2 {
   border-top: 0.04em solid #FFFFFF;
+  color: #3F4142;
   font-size: 3.5em;
+  letter-spacing: -0.025em;
+  line-height: 1em;
+  padding: 4% 0 0;
+  text-align: center;
+  text-shadow: 0 0.02em 0.03em #D7E7E9;
+  width: 100%;
+  font-weight: normal;
 }
 #highlighted article h1 {
+  color: #3F4142;
+  letter-spacing: -0.025em;
+  line-height: 1.2em;
+  margin-bottom: 2%;
+  padding: 0 0 2%;
+  text-align: center;
+  text-shadow: 0 0.02em 0.03em #D7E7E9;
   border-bottom: 0.01em solid #FFFFFF;
-  font-size: 9em;
+  font-size: 9.2em;
+  font-weight: normal;
 }
 #highlighted article p {
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  margin: 0 0 15px 10px;
   font-size: 1.2em;
   padding: 0 2%;
   margin-bottom: 10%;
@@ -25,9 +44,9 @@
   text-align: center;
 }
 #highlighted article a {
-  font-size: 2em;
-  padding: 2% 4%;
+  font-size: 1.5em;
   font-weight: bold;
+  padding: 4% 6%;
 }
 #body article {
   margin-bottom: 5%;
@@ -61,4 +80,7 @@
 #body article.alpha {
   border-right: 0.2em solid #81A5B0;
   margin-right: 0.5em;
+}
+#body article p a:not(.testimonial-link) {
+  font-weight: bold;
 }

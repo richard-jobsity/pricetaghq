@@ -15,6 +15,8 @@
 		p{
 			font-size: 1.2em;
 			margin-right: 3%;
+			letter-spacing: -0.2px;
+    		line-height: 20px;
 		}
 		.omega{
 			margin-left: 1%;
@@ -22,18 +24,20 @@
 		}
 		div{
 			font-family: @header-font,Arial,sans-serif;
+			margin-top: 1em;
 			strong{
 				font-size: 6em;
 				margin: 0;
 			}
 			p{
+				line-height: 38px;
 				font-size: 3em;
 				font-weight: normal;
 			}
 			a{
 				font-size: 1.8em;
 			    font-weight: bold;
-			    padding: 8% 17%;
+			    padding: 9% 15%;
 			}
 		}
 	}
@@ -43,7 +47,10 @@
 	    padding-left: 0;
 	    text-align: center;
 	    width: 100%;
+	    line-height: 26px;
 	    li {
+	    	position: relative;
+	    	height: 24em;
 	    	&:not(.omega){
 	    		background-image: url('../img/hiw-arrow.png');
 				background-repeat: repeat-y;
@@ -56,10 +63,24 @@
 	    	}
 	    	div{
 		    	&:last-child{
+		    		position: absolute;
 					background: #FFFFFF;
 					height: 3em;
+					bottom: 0;
+					&.step1{
+						width: 96%;
+					}
+					&:not(.step1){
+						left: -3%;
+					}
+					&:not(.step1):not(.step4){
+						width: 99%;
+					}
+					&.step4{
+						width: 103%;
+					}
 					a{
-						padding-top: 8%;
+						padding-top: 3%;
 						vertical-align: middle;
 						font-size: 1.2em;
 					}
@@ -67,13 +88,16 @@
 			}
 			.hiw-step-about{
 				font-size: 2em;
+				font-weight: bold;
 				height: 3em;
 				margin-bottom: 2%;
 				color: @grey-color;
+				line-height: inherit;
 			}
 			h2{
 				font-size: 2em;
 				font-weight: normal;
+				line-height: inherit;
 			}
 		}
 	}
@@ -84,14 +108,20 @@
 		margin-bottom: 4em;
 	}
 	div{
+		line-height: @line-height-general;
 		h2{
 			float: left;
-    		margin-right: 2%;
+    		margin-bottom: 0;
+  			margin-right: 4%;
+    		margin-top: 0;
+    		font-size: 2em;
+    		line-height: 2em;
 		}
 		h1{
 			font-size: @h1-font-size;
 			font-weight: lighter;
 			margin: 0;
+			text-shadow:none;
 		}
 		p{
 			font-size: 1.15em;

@@ -11,7 +11,7 @@
   border: 1px solid #FFFFFF;
 }
 #pricing-info section article header {
-  padding: 4% 4% 4% 10%;
+  padding: 7% 5% 3% 8%;
 }
 #pricing-info section article header h1 {
   color: #006599;
@@ -43,22 +43,24 @@
   padding-top: 3%;
 }
 #pricing-info section article .unltd-quotes {
-  margin-bottom: -2%;
-  margin-top: 9%;
+  margin-top: 8%;
   text-align: center;
 }
 #pricing-info section article .unltd-quotes strong {
-  font-size: 28px;
+  font-size: 2.9em;
+  font-weight: normal;
 }
 #pricing-info section article .unltd-quotes p {
   margin: 0;
-  font-size: 20px;
+  font-size: 2em;
 }
 #pricing-info section article div:first-of-type {
   height: 9em;
 }
 #pricing-info section article div:last-of-type {
   margin-bottom: 2%;
+  margin-left: 0;
+  margin-right: 0;
 }
 #pricing-info section article div p {
   font-size: 1.3em;
@@ -112,6 +114,12 @@
 }
 #pricing-features ul li:nth-child(even) {
   background-color: #FFFFFF;
+}
+#faq article {
+  line-height: 1.8em;
+}
+#faq article h3 {
+  text-shadow: none;
 }
 aside header h2,
 section header h2 {

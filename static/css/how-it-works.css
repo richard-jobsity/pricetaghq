@@ -15,6 +15,8 @@
 #hiw-content section p {
   font-size: 1.2em;
   margin-right: 3%;
+  letter-spacing: -0.2px;
+  line-height: 20px;
 }
 #hiw-content section .omega {
   margin-left: 1%;
@@ -22,19 +24,21 @@
 }
 #hiw-content section div {
   font-family: "OblikBold", Arial, sans-serif;
+  margin-top: 1em;
 }
 #hiw-content section div strong {
   font-size: 6em;
   margin: 0;
 }
 #hiw-content section div p {
+  line-height: 38px;
   font-size: 3em;
   font-weight: normal;
 }
 #hiw-content section div a {
   font-size: 1.8em;
   font-weight: bold;
-  padding: 8% 17%;
+  padding: 9% 15%;
 }
 #hiw-content ul {
   background: #D1E7E4;
@@ -42,8 +46,11 @@
   padding-left: 0;
   text-align: center;
   width: 100%;
+  line-height: 26px;
 }
 #hiw-content ul li {
+  position: relative;
+  height: 24em;
   margin: 0;
   width: 25%;
 }
@@ -56,35 +63,60 @@
   border-right: none;
 }
 #hiw-content ul li div:last-child {
+  position: absolute;
   background: #FFFFFF;
   height: 3em;
+  bottom: 0;
+}
+#hiw-content ul li div:last-child.step1 {
+  width: 96%;
+}
+#hiw-content ul li div:last-child:not(.step1) {
+  left: -3%;
+}
+#hiw-content ul li div:last-child:not(.step1):not(.step4) {
+  width: 99%;
+}
+#hiw-content ul li div:last-child.step4 {
+  width: 103%;
 }
 #hiw-content ul li div:last-child a {
-  padding-top: 8%;
+  padding-top: 3%;
   vertical-align: middle;
   font-size: 1.2em;
 }
 #hiw-content ul li .hiw-step-about {
   font-size: 2em;
+  font-weight: bold;
   height: 3em;
   margin-bottom: 2%;
   color: #3f4142;
+  line-height: inherit;
 }
 #hiw-content ul li h2 {
   font-size: 2em;
   font-weight: normal;
+  line-height: inherit;
 }
 #hiw-step-specs article:not(:last-of-type) {
   margin-bottom: 4em;
 }
+#hiw-step-specs article div {
+  line-height: 1.8em;
+}
 #hiw-step-specs article div h2 {
   float: left;
-  margin-right: 2%;
+  margin-bottom: 0;
+  margin-right: 4%;
+  margin-top: 0;
+  font-size: 2em;
+  line-height: 2em;
 }
 #hiw-step-specs article div h1 {
   font-size: 42px;
   font-weight: lighter;
   margin: 0;
+  text-shadow: none;
 }
 #hiw-step-specs article div p {
   font-size: 1.15em;
