@@ -164,6 +164,10 @@ a:hover.button {
   width: 100%;
   margin-top: 4%;
 }
+#postscript div {
+  margin: auto;
+  width: 88em;
+}
 #postscript p {
   font-family: "OblikBold", Arial, sans-serif;
   font-size: 2em;
@@ -173,9 +177,6 @@ a:hover.button {
 }
 #postscript img {
   float: left;
-}
-#postscript img:first-of-type {
-  margin-left: 12em;
 }
 #footer {
   background: url("../img/footer_background.png") repeat-x scroll 0 0 #414142;
