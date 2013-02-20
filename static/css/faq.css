@@ -11,7 +11,8 @@
   margin: 0;
 }
 #faq-categories ul li {
-  padding: 2%;
+  background: url("../img/bulletList.png") no-repeat scroll 4% center transparent;
+  padding: 2% 7%;
 }
 #faq-categories ul li:nth-child(odd) {
   background-color: #DFEBED;

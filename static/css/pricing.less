@@ -1,7 +1,7 @@
 @import "variables.less";
 
 #pricing-info{
-	margin-bottom: 10%;
+	margin-bottom: 11%;
 	header{
 		h1{
 			font-size: @h1-font-size;
@@ -61,40 +61,49 @@
 				height: 9em;
 			}
 			div:last-of-type{
-				margin-bottom: 2%;
 			    margin-left: 0;
 			    margin-right: 0;
+			    img{
+			    	width: 30%;
+			    }
+			    ul{
+			    	margin-left: 0;
+			    	padding-left: 2%;
+			    }
 			}
 			div p{
+				margin-bottom: 0;
 				font-size: 1.3em;
 				font-weight: bold;
 				text-align: center;
 				font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
 			}
 			p{
+				font-weight: bold;
 				text-align: center;
 				&.grid_4{
 					background-color: #FFFFFF;
     				margin: 0;
-    				padding: 3% 0;
+    				padding: 4% 0;
+    				font-size: 1.15em;
 				}
 				&.select-plan{
-					display: block;
 					background-color: #666666;
 				    bottom: -21.5%;
-				    height: 18%;
-				    margin: 4% 2%;
+				    box-shadow: 0 0.2em 0.08em #888888;
+				    display: block;
+				    height: 21.2%;
+				    margin: 0 2%;
 				    position: absolute;
 				    width: 96%;
-				    box-shadow: 0 0.2em 0.08em #888888;
 				    a{
-				    	font-size: 1.8em;
-					    font-weight: bold;
+				    	display: block;
+					    font-family: @header-font,Arial,sans-serif;
+					    font-size: 2em;
 					    left: 0;
-					    margin: 4% 20%;
-					    padding: 3% 8%;
-					    display: block;
-					    width: 41%;
+					    margin: 4% 14%;
+					    padding: 5% 8%;
+					    width: 56%;
 				    }
 				}
 			}
@@ -114,7 +123,8 @@
 		padding-left: 0;
 		margin: 0;
 		li{
-			padding: 2%;
+			background: url("../img/bulletList.png") no-repeat scroll 4% center transparent;
+    		padding: 2% 7%;
 			&:nth-child(odd){
 				background-color: #DFEBED;
 			}
