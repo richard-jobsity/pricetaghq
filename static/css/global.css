@@ -207,6 +207,7 @@ a:hover.button {
 }
 #footer section ul {
   padding-left: 0;
+  white-space: nowrap;
 }
 #footer section ul li {
   float: left;

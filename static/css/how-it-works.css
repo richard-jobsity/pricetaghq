@@ -31,9 +31,14 @@
   margin: 0;
 }
 #hiw-content section div p {
+  font-family: inherit;
   line-height: 38px;
   font-size: 3em;
   font-weight: normal;
+}
+#hiw-content section div p.alpha {
+  font-size: 8em;
+  margin: 16% 0 0;
 }
 #hiw-content section div a {
   font-size: 1.8em;

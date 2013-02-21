@@ -1,5 +1,5 @@
 #pricing-info {
-  margin-bottom: 10%;
+  margin-bottom: 11%;
 }
 #pricing-info header h1 {
   font-size: 42px;
@@ -8,7 +8,7 @@
 #pricing-info section article {
   background: url("../img/pricing-short-background.png");
   margin: 0 1% 0 0;
-  border: 1px solid #FFFFFF;
+  border: 0.1em solid #FFFFFF;
 }
 #pricing-info section article header {
   padding: 7% 5% 3% 8%;
@@ -16,7 +16,8 @@
 #pricing-info section article header h1 {
   color: #006599;
   margin: 0;
-  font-size: 40px;
+  font-size: 3.3em;
+  white-space: nowrap;
 }
 #pricing-info section article header p {
   font-size: 1.5em;
@@ -58,41 +59,51 @@
   height: 9em;
 }
 #pricing-info section article div:last-of-type {
-  margin-bottom: 2%;
   margin-left: 0;
   margin-right: 0;
 }
+#pricing-info section article div:last-of-type img {
+  width: 30%;
+}
+#pricing-info section article div:last-of-type ul {
+  margin-left: 0;
+  padding-left: 2%;
+}
 #pricing-info section article div p {
+  margin-bottom: 0;
   font-size: 1.3em;
   font-weight: bold;
   text-align: center;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 #pricing-info section article p {
+  font-weight: bold;
   text-align: center;
 }
 #pricing-info section article p.grid_4 {
   background-color: #FFFFFF;
   margin: 0;
-  padding: 3% 0;
+  padding: 4% 0;
+  font-size: 1.15em;
 }
 #pricing-info section article p.select-plan {
   background-color: #666666;
   bottom: -21.5%;
-  height: 18%;
-  margin: 4% 2%;
+  box-shadow: 0 0.2em 0.08em #888888;
+  display: block;
+  height: 21.2%;
+  margin: 0 2%;
   position: absolute;
   width: 96%;
-  box-shadow: 0 0.2em 0.08em #888888;
 }
 #pricing-info section article p.select-plan a {
-  font-size: 1.8em;
-  font-weight: bold;
+  display: block;
+  font-family: "OblikBold", Arial, sans-serif;
+  font-size: 2em;
   left: 0;
-  margin: 4% 20%;
-  padding: 3% 8%;
-  position: absolute;
-  width: 41%;
+  margin: 4% 14%;
+  padding: 5% 8%;
+  width: 56%;
 }
 #pricing-features header {
   background-color: #FFFFFF;
@@ -107,7 +118,8 @@
   margin: 0;
 }
 #pricing-features ul li {
-  padding: 2%;
+  background: url("../img/bulletList.png") no-repeat scroll 4% center transparent;
+  padding: 2% 7%;
 }
 #pricing-features ul li:nth-child(odd) {
   background-color: #DFEBED;
