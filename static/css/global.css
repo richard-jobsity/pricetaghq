@@ -59,6 +59,7 @@ section {
   display: block;
 }
 a {
+  outline: 0;
   color: #006394;
   text-decoration: none;
 }
@@ -158,6 +159,7 @@ a:hover.button {
 #social-networks * {
   float: right;
   margin-right: 1%;
+  border: 0;
 }
 #social-networks iframe {
   border: none;
@@ -274,4 +276,5 @@ a:hover.button {
   background-image: -webkit-linear-gradient(bottom, #588212 47%, #70a021 74%, #79ac27 87%);
   background-image: -ms-linear-gradient(bottom, #588212 47%, #70a021 74%, #79ac27 87%);
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.47, #588212), color-stop(0.74, #70a021), color-stop(0.87, #79ac27));
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#588212', endColorstr='#79AC27');
 }
