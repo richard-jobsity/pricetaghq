@@ -51,12 +51,14 @@ a {
     color: #313737;
     height: 3em;
     margin: 7em -82.1em;
-    padding: 0 0 0 21em;
     position: absolute;
     width: 100%;
 }  
 #main-menu #main-nav{
     float:left;
+}
+#main-menu #main-nav{
+    margin-left: 21.5em;
 }
 #main-menu #main-nav ul{
     list-style-type: none;
@@ -313,7 +315,7 @@ a {
     font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
     padding: 1em 22em;
     margin-left: -22em;
-    width: 172.9%
+    width: 100%;
 }
 #postscript h1{
     color: #313737;
@@ -344,7 +346,7 @@ a {
     width: 8em;
 }
 #postscript .menu-postscript-2{
-    width: 26em;
+    width: 24em;
 }
 #postscript .menu-postscript-3{
     width: 4.5em;
@@ -360,7 +362,7 @@ a {
     color:white;
     font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
     margin-left: -22em;
-    width: 172.9%
+    width: 100%;
 }
 #footer h1{
     color: #B3AD9E;
@@ -426,7 +428,7 @@ a {
     display: block;
     float: right;
     margin-top: 0.9em;
-    margin-right:-19.2em;
+    margin-right:-20.2em;
     width: 6em;
     height: 6em;
 }
